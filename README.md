@@ -2,37 +2,43 @@
 
 TechBooster's original hardware  (Arduino Compatible / Pro mini ATMEGA 328T 3.3V/8MHz)
 
-# C91 GameKit 
+C91ã§é ’å¸ƒã—ãŸArduinoäº’æ›ã‚²ãƒ¼ãƒ ã‚­ãƒƒãƒˆã®ãƒªãƒã‚¸ãƒˆãƒªã§ã™
 
-## ƒfƒBƒŒƒNƒgƒŠ\‘¢
+## ã‚µãƒ³ãƒ—ãƒ«ã‚²ãƒ¼ãƒ 
+![](c91-gamekit-software/mockup/title.jpg)
+![](c91-gamekit-software/mockup/mock.gif)
 
- * c91-gamekit-hardware-design Šî”ÂŠeíDXFƒf[ƒ^
- * c91-gamekit-software ƒvƒŠƒCƒ“ƒXƒg[ƒ‹ƒ\ƒtƒgƒEƒFƒAu—‚Æ‚³‚È‚¢VŠ§vƒTƒ“ƒvƒ‹ƒ\[ƒXƒR[ƒh
+## ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ§‹é€ 
 
-## ŠJ”­ŠÂ‹«
+ * c91-gamekit-hardware-design åŸºæ¿å„ç¨®DXFãƒ‡ãƒ¼ã‚¿
+ * c91-gamekit-software ãƒ—ãƒªã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã€Œè½ã¨ã•ãªã„æ–°åˆŠã€ã‚µãƒ³ãƒ—ãƒ«ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰
 
- * ƒn[ƒhƒEƒFƒA
+## é–‹ç™ºç’°å¢ƒ
+
+ * __Writingç’°å¢ƒã¯3.3V__
+ * __ç ´æã®å¯èƒ½æ€§ï¼šGameKitä»˜å±ã®æ¶²æ™¶ã‚’å¤–ã—ã€é›»æ± ã‹ã‚‰ã®çµ¦é›»ãŒOFFã§ã‚ã‚‹ã“ã¨ã‚’ç¢ºèªã—ã¦æ¥ç¶šã™ã‚‹ã“ã¨__
+ * ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢
    * SeeedStudio Arduino Pro Mini 3.3V/8MHz
    * 1.44" SPI LCD
-   * FT232RLƒ{[ƒh(‘‚«‚İ—p)
- * ƒ\ƒtƒgƒEƒFƒA
- * Visual Studio 2015 Professional(Community‚Å‚à‰ÂAExpress•s‰Â)
-   * [VisualMicro](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)Šg’£‚ª•K{
- * Arduino IDE‚Í1.6.12‚Å“®ìŠm”FÏ‚İ
+ Â  * FT232RLãƒœãƒ¼ãƒ‰(æ›¸ãè¾¼ã¿ç”¨) 
+ * ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢
+ * Visual Studio 2015 Professional(Communityã§ã‚‚å¯ã€Expressä¸å¯)
+   * [VisualMicro](https://marketplace.visualstudio.com/items?itemName=VisualMicro.ArduinoIDEforVisualStudio)æ‹¡å¼µãŒå¿…é ˆ
+ * Arduino IDEã¯1.6.12ã§å‹•ä½œç¢ºèªæ¸ˆã¿
 
-## ƒ^ƒCƒgƒ‹‰æ–Ê‚Ù‚©‰æ‘œƒf[ƒ^(xbm_*.h)‚Ìƒrƒ‹ƒh•û–@i©•ª‚Å‰æ‘œ‚ğ•ÏX‚·‚é‚Æ‚«‚É•K—v‚Èè‡j
+## ã‚¿ã‚¤ãƒˆãƒ«ç”»é¢ã»ã‹ç”»åƒãƒ‡ãƒ¼ã‚¿(xbm_*.h)ã®ãƒ“ãƒ«ãƒ‰æ–¹æ³•ï¼ˆè‡ªåˆ†ã§ç”»åƒã‚’å¤‰æ›´ã™ã‚‹ã¨ãã«å¿…è¦ãªæ‰‹é †ï¼‰
 
-1. artworkƒfƒBƒŒƒNƒgƒŠˆÈ‰º‚ÉPNGƒtƒH[ƒ}ƒbƒg‚Åˆ—‘ÎÛƒtƒ@ƒCƒ‹‚ğŠi”[
+ï¼‘. artworkãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªä»¥ä¸‹ã«PNGãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã§å‡¦ç†å¯¾è±¡ãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ ¼ç´
 
-2. artwork/dimension.csv ƒtƒ@ƒCƒ‹‚Éƒtƒ@ƒCƒ‹–¼(.png‚ğœ‚­)‚Æ¡–@‚ğ‹L“ü(‚Ù‚©‚Ìƒtƒ@ƒCƒ‹‚Ì‹Lq‚É•í‚¤)
+ï¼’. artwork/dimension.csv ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒ•ã‚¡ã‚¤ãƒ«å(.pngã‚’é™¤ã)ã¨å¯¸æ³•ã‚’è¨˜å…¥(ã»ã‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã®è¨˜è¿°ã«å€£ã†)
 
-3. ImageMagick‚ğ“±“ü‚µ‚½Macã(Bash on Windows‚Å‚à‰Â)‚ÅŸ‚ÌƒRƒ}ƒ“ƒh‚ğÀs
+ï¼“. ImageMagickã‚’å°å…¥ã—ãŸMacä¸Š(Bash on Windowsã§ã‚‚å¯)ã§æ¬¡ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œ
 
 ```
 $ ./generate_artwork_headers.sh
 ```
 
-Ÿ‚Ì‚æ‚¤‚ÉÀsŒ‹‰Ê‚ªo—Í‚³‚ê‚ê‚Î¬Œ÷B
+æ¬¡ã®ã‚ˆã†ã«å®Ÿè¡ŒçµæœãŒå‡ºåŠ›ã•ã‚Œã‚Œã°æˆåŠŸã€‚
 
 ```
 INFO: Input image "body.png" need to be 20 x 42
@@ -46,4 +52,7 @@ INFO: Input image "title.png" need to be 64 x 64
 INFO: Successfully written xbm_title.h
 ```
 
-4. Arduino IDE‚âVisual Studioã‚ÅƒvƒƒWƒFƒNƒg‚ğƒrƒ‹ƒh‚µ’¼‚¹‚ÎƒQ[ƒ€–{‘Ì‚É”½‰f‚³‚ê‚é(‚Í‚¸)
+ï¼”. Arduino IDEã‚„Visual Studioä¸Šã§ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã‚’ãƒ“ãƒ«ãƒ‰ã—ç›´ã›ã°ã‚²ãƒ¼ãƒ æœ¬ä½“ã«åæ˜ ã•ã‚Œã‚‹(ã¯ãš)
+
+## ãƒãƒ¼ãƒ‰ã‚¦ã‚§ã‚¢
+![ç­ä½“ã‚¤ãƒ¡ãƒ¼ã‚¸](c91-gamekit-hardware-design/image.png)
