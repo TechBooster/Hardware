@@ -15,7 +15,7 @@ C91で頒布したArduino互換ゲームキットのリポジトリです
 
 ## 開発環境
 
- * __Writing環境は3.3V__
+ * FT232RLボード(書き込み用が別途必要です)__Writing環境は3.3V__
  * __破損の可能性：GameKit付属の液晶を外し、電池からの給電がOFFであることを確認して接続すること__
  * ハードウェア
    * SeeedStudio Arduino Pro Mini 3.3V/8MHz
