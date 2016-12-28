@@ -1,0 +1,15 @@
+slice_name,w,h,x,y
+body,20,56,52,65
+hand-left-1,36,25,16,73
+hand-left-2,22,25,30,75
+hand-left-3,17,23,36,76
+hand-right-1,17,23,71,76
+hand-right-2,22,25,72,75
+hand-right-3,36,25,74,73
+book-1,21,19,1,56
+book-2,20,19,12,37
+book-3,17,19,32,23
+book-4,15,21,55,32
+book-5,20,23,74,50
+title,64,64,0,0
+gameover,64,64,0,0
