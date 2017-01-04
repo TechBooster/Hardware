@@ -12,6 +12,7 @@ C91で頒布したArduino互換ゲームキットのリポジトリです
 
  * c91-gamekit-hardware-design 基板各種DXFデータ
  * c91-gamekit-software プリインストールソフトウェア「落とさない新刊」サンプルソースコード
+ * c91-gamekit-body 筐体の3Dデータ
 
 ## 開発環境
 
